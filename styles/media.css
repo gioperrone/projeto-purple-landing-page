@@ -6,6 +6,11 @@
         flex-direction: column;
     }
 
+    nav li{
+        display: inline-block;
+        margin: 10px;
+    }
+
     nav a#inscreva-se-btn{
         display: block;
         margin: auto;
