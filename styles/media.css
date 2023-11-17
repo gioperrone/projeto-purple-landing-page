@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 914px){
+
+    header{
+        flex-direction: column;
+    }
+
+    nav a#inscreva-se-btn{
+        display: block;
+        margin: auto;
+        text-align: center;
+        padding: 0px;
+        width: 250px;
+        margin-bottom: 50px;
+    }
+
+
+
+    main{
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    main h2{
+        max-width: 400px;
+        font-size: 38px;
+        margin: auto;
+    }
+
+    main p{
+        max-width: 400px;
+    }
+
+    form{
+        margin: 0 auto;
+    }
+
+    form input{
+        align-self: center;
+        width: 100%;
+    }
+
+    form [type="submit"]{
+        width: 110%;
+    }
+
+    img{
+        display: none;
+    }
+}
