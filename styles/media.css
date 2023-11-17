@@ -6,9 +6,15 @@
         flex-direction: column;
     }
 
+    nav ul{
+        padding-left: 0px; /* Removeu o padding lateral, para centralizar */
+    }
+
     nav li{
+        margin: auto;
         display: inline-block;
-        margin: 10px;
+        align-items: center;
+        margin: 10px; /* Diminuiu a margem, para caber todos os botões na tela de celular */
     }
 
     nav a#inscreva-se-btn{
